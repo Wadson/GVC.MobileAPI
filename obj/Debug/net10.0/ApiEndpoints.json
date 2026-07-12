@@ -1,0 +1,169 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.DatabaseController",
+    "Method": "Ping",
+    "RelativePath": "api/database/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.ImagensController",
+    "Method": "ObterImagemProduto",
+    "RelativePath": "api/imagens/produto/{produtoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.ProdutosController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GVC.MobileAPI.Responses.ApiResponse\u00601[[System.Collections.Generic.IReadOnlyList\u00601[[GVC.MobileAPI.DTOs.ProdutoDto, GVC.MobileAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.ProdutosController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/produtos/{produtoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GVC.MobileAPI.Responses.ApiResponse\u00601[[GVC.MobileAPI.DTOs.ProdutoDto, GVC.MobileAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "GVC.MobileAPI.Responses.ApiResponse\u00601[[GVC.MobileAPI.DTOs.ProdutoDto, GVC.MobileAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.ProdutosController",
+    "Method": "Pesquisar",
+    "RelativePath": "api/produtos/pesquisar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "termo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "empresaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GVC.MobileAPI.Responses.ApiResponse\u00601[[System.Collections.Generic.IReadOnlyList\u00601[[GVC.MobileAPI.DTOs.ProdutoDto, GVC.MobileAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "GVC.MobileAPI.Responses.ApiResponse\u00601[[System.Collections.Generic.IReadOnlyList\u00601[[GVC.MobileAPI.DTOs.ProdutoDto, GVC.MobileAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.SincronizacaoController",
+    "Method": "BaixarPacoteCompleto",
+    "RelativePath": "api/sincronizacao/completa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.FileResult",
+        "MediaTypes": [
+          "application/zip"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

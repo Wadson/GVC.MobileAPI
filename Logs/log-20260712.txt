@@ -1,0 +1,409 @@
+2026-07-12 00:45:22.800 -03:00 [WRN] Imagem do produto 2 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 00:45:39.406 -03:00 [WRN] Imagem do produto 15 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 00:45:46.762 -03:00 [WRN] Imagem do produto 16 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 00:45:57.981 -03:00 [WRN] Imagem do produto 20 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 00:46:13.925 -03:00 [WRN] Imagem do produto 4 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:34.233 -03:00 [INF] Iniciando geração do pacote completo. EmpresaID: null.
+2026-07-12 08:20:37.455 -03:00 [WRN] Imagem do produto 8 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 1263 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 1256 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 7 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 46 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 9 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 118 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 33 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 11 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 32 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 208 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 194 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 192 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.456 -03:00 [WRN] Imagem do produto 205 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 193 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 187 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 195 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 196 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 198 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 197 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 16 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 126 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 25 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 26 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 202 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 203 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 1271 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 1272 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 122 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 34 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.457 -03:00 [WRN] Imagem do produto 127 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 186 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 184 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 185 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 35 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 206 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 207 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 200 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 201 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 204 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 121 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 119 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 120 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 1261 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 117 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 221 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 222 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 1270 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 12 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 70 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 38 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.458 -03:00 [WRN] Imagem do produto 13 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 15 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 133 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 128 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 123 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 43 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 14 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 27 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 72 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 103 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 235 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 73 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 102 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.459 -03:00 [WRN] Imagem do produto 78 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 24 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 104 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 36 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 17 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 5 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 1260 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 129 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 44 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 227 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 226 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 108 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 20 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 101 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 1265 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 1266 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 153 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 124 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 47 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 31 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 29 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.460 -03:00 [WRN] Imagem do produto 30 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 19 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 71 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 105 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 80 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 45 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 3 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 106 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 23 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 10 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 107 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 4 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 28 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 116 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 125 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 21 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 18 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 22 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.461 -03:00 [WRN] Imagem do produto 79 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 66 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 51 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 52 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 53 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 54 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 189 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.462 -03:00 [WRN] Imagem do produto 61 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 62 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 59 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 57 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 135 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 145 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 141 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 1280 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 229 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 142 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 130 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 2 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.463 -03:00 [WRN] Imagem do produto 77 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 75 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 84 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 93 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 49 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 56 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 169 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 74 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 234 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 147 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 143 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 96 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.464 -03:00 [WRN] Imagem do produto 87 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 1 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 199 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 39 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 178 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 218 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 181 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 170 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 183 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 171 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 179 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 182 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 219 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 172 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 174 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 173 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 175 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 176 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 1264 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 211 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.465 -03:00 [WRN] Imagem do produto 214 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 191 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 37 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 212 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 215 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 213 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 188 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 41 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 190 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 216 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 217 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 209 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 210 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 1262 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 236 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.466 -03:00 [WRN] Imagem do produto 40 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 81 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 1273 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 238 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 111 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 110 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 42 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 224 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 112 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 1259 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 114 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 237 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 223 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 109 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 152 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 113 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 233 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 89 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.467 -03:00 [WRN] Imagem do produto 98 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 1267 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 88 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 97 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 82 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 94 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 146 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 86 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 95 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 115 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 138 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 154 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 132 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.468 -03:00 [WRN] Imagem do produto 131 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.469 -03:00 [WRN] Imagem do produto 139 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.469 -03:00 [WRN] Imagem do produto 144 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.470 -03:00 [WRN] Imagem do produto 92 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.470 -03:00 [WRN] Imagem do produto 83 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:20:37.470 -03:00 [WRN] Imagem do produto 99 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:37.470 -03:00 [WRN] Imagem do produto 243 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:20:38.564 -03:00 [INF] Pacote de sincronização criado. Arquivo: GVC_SYNC_20260712_082037_96694db7.zip. Produtos: 277. Imagens: 71. Tamanho: 11277257 bytes.
+2026-07-12 08:20:38.565 -03:00 [INF] Pacote completo finalizado. Produtos: 277. Imagens únicas: 71. Imagens padrão utilizadas: 207. Produtos sem imagem: 0.
+2026-07-12 08:20:38.566 -03:00 [INF] Enviando pacote GVC_SYNC_20260712_082037_96694db7.zip. Tamanho: 11277257 bytes.
+2026-07-12 08:20:38.738 -03:00 [INF] Arquivo temporário removido: D:\ProgramData\Local\Temp\GVC.MobileAPI\Sync\GVC_SYNC_20260712_082037_96694db7.zip.
+2026-07-12 08:21:16.493 -03:00 [INF] Iniciando geração do pacote completo. EmpresaID: 3.
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 8 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 1263 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 1256 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 7 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 46 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 9 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 118 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 33 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 11 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 32 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 208 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 194 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 192 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.512 -03:00 [WRN] Imagem do produto 205 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 193 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 187 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 195 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 196 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 198 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 197 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 16 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 126 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 25 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 26 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 202 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 203 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 1271 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 1272 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 122 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 34 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 127 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 186 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 184 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.513 -03:00 [WRN] Imagem do produto 185 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 35 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 206 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 207 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 200 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 201 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 204 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 121 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 119 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 120 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 1261 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 117 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 221 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 222 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 1270 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 12 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 70 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 38 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 13 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 15 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 133 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 128 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 123 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.514 -03:00 [WRN] Imagem do produto 43 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 14 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 27 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 72 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 103 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 235 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 73 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 102 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 78 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 24 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 104 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 36 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 17 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 5 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 1260 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 129 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 44 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 227 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 226 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 108 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 20 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 101 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 1265 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 1266 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.515 -03:00 [WRN] Imagem do produto 153 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 124 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 47 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 31 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 29 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 30 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 19 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 71 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 105 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 80 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 45 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 3 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 106 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 23 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 10 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.516 -03:00 [WRN] Imagem do produto 107 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 4 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 28 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 116 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 125 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 21 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 18 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 22 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 79 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 66 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.517 -03:00 [WRN] Imagem do produto 51 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 52 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 53 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 54 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 189 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 61 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 62 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 59 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 57 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 130 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 2 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 77 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 75 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 49 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 56 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.518 -03:00 [WRN] Imagem do produto 169 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 74 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 234 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 1 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 199 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 39 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 178 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 218 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 181 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 170 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 183 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 171 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 179 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 182 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 219 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 172 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 174 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 173 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 175 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 176 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 1264 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 211 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 214 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.519 -03:00 [WRN] Imagem do produto 191 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 37 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 212 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 215 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 213 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 188 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 41 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 190 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 216 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 217 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 209 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 210 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 1262 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 236 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 40 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 81 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 1273 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 238 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 111 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 110 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 42 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 224 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 112 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 1259 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.520 -03:00 [WRN] Imagem do produto 114 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 237 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 223 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 109 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 152 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 113 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 115 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 138 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 154 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 132 não encontrada. A imagem padrão será utilizada. Caminho registrado: null
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 131 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 139 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.521 -03:00 [WRN] Imagem do produto 243 não encontrada. A imagem padrão será utilizada. Caminho registrado: 
+2026-07-12 08:21:16.668 -03:00 [INF] Pacote de sincronização criado. Arquivo: GVC_SYNC_20260712_082116_1412c9db.zip. Produtos: 211. Imagens: 32. Tamanho: 8228332 bytes.
+2026-07-12 08:21:16.668 -03:00 [INF] Pacote completo finalizado. Produtos: 211. Imagens únicas: 32. Imagens padrão utilizadas: 180. Produtos sem imagem: 0.
+2026-07-12 08:21:16.668 -03:00 [INF] Enviando pacote GVC_SYNC_20260712_082116_1412c9db.zip. Tamanho: 8228332 bytes.
+2026-07-12 08:21:16.781 -03:00 [INF] Arquivo temporário removido: D:\ProgramData\Local\Temp\GVC.MobileAPI\Sync\GVC_SYNC_20260712_082116_1412c9db.zip.
+2026-07-12 08:35:27.126 -03:00 [ERR] Erro não tratado. StatusCode: 500. Método: GET. Caminho: /teste-erro. TraceId: 0HNN0155BHQQN:00000015
+System.InvalidOperationException: Erro proposital para validar o middleware.
+   at Program.<>c.<<Main>$>b__0_3() in D:\Projetos\GVC.MobileAPI\Program.cs:line 53
+   at lambda_method5(Closure, Object, HttpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at GVC.MobileAPI.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context) in D:\Projetos\GVC.MobileAPI\Middlewares\ExceptionMiddleware.cs:line 27
