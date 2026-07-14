@@ -17,4 +17,11 @@ public sealed class SyncManifestDto
     public int? EmpresaID { get; set; }
 
     public string FormatoPacote { get; set; } = "GVC-SYNC-1.0";
+
+    public int QuantidadeClientes { get; set; }
+
+    public int QuantidadeContasReceber { get; set; }
+
+
+   
 }

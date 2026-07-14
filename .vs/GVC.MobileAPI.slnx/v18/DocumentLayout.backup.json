@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Projetos\\GVC.MobileAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|d:\\projetos\\gvc.mobileapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|d:\\projetos\\gvc.mobileapi\\services\\sincronizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|solutionrelative:services\\sincronizacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|d:\\projetos\\gvc.mobileapi\\dtos\\syncmanifestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4773410A-8C73-F70B-019D-FDA9ED34AC2B}|GVC.MobileAPI.csproj|solutionrelative:dtos\\syncmanifestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -107,14 +111,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\GVC.MobileAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projetos\\GVC.MobileAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwEoAAAADAAAAAAAAAA==",
+              "Title": "SincronizacaoService.cs",
+              "DocumentMoniker": "D:\\Projetos\\GVC.MobileAPI\\Services\\SincronizacaoService.cs",
+              "RelativeDocumentMoniker": "Services\\SincronizacaoService.cs",
+              "ToolTip": "D:\\Projetos\\GVC.MobileAPI\\Services\\SincronizacaoService.cs",
+              "RelativeToolTip": "Services\\SincronizacaoService.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-12T12:26:59.979Z",
+              "WhenOpened": "2026-07-14T10:11:16.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SyncManifestDto.cs",
+              "DocumentMoniker": "D:\\Projetos\\GVC.MobileAPI\\DTOs\\SyncManifestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\SyncManifestDto.cs",
+              "ToolTip": "D:\\Projetos\\GVC.MobileAPI\\DTOs\\SyncManifestDto.cs",
+              "RelativeToolTip": "DTOs\\SyncManifestDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T10:09:30.521Z",
               "EditorCaption": ""
             }
           ]

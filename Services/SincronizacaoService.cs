@@ -12,13 +12,20 @@ public sealed class SincronizacaoService : ISincronizacaoService
     private readonly ISyncPackageBuilder _packageBuilder;
     private readonly ILogger<SincronizacaoService> _logger;
 
+    private readonly IClienteService _clienteService;
+    private readonly IContaReceberService _contaReceberService;
+
     public SincronizacaoService(
-        IProdutoService produtoService,
-        IImagemService imagemService,
-        ISyncPackageBuilder packageBuilder,
-        ILogger<SincronizacaoService> logger)
+       IProdutoService produtoService,
+       IClienteService clienteService,
+       IContaReceberService contaReceberService,
+       IImagemService imagemService,
+       ISyncPackageBuilder packageBuilder,
+       ILogger<SincronizacaoService> logger)
     {
         _produtoService = produtoService;
+        _clienteService = clienteService;
+        _contaReceberService = contaReceberService;
         _imagemService = imagemService;
         _packageBuilder = packageBuilder;
         _logger = logger;
@@ -42,6 +49,10 @@ public sealed class SincronizacaoService : ISincronizacaoService
         var produtosOriginais = await _produtoService.ObterTodosAsync(
             empresaId,
             cancellationToken);
+
+        var clientes =  await _clienteService.ObterTodosAsync( empresaId,  cancellationToken);
+        var contasReceber = await _contaReceberService.ObterTodasAsync(  empresaId, cancellationToken);
+
 
         var produtosSync = new List<ProdutoSyncDto>(
             produtosOriginais.Count);
@@ -131,17 +142,23 @@ public sealed class SincronizacaoService : ISincronizacaoService
             Versao = GerarVersao(dataGeracaoUtc),
             DataGeracaoUtc = dataGeracaoUtc,
             QuantidadeProdutos = produtosSync.Count,
+            QuantidadeClientes = clientes.Count,
+            QuantidadeContasReceber = contasReceber.Count,
             QuantidadeImagens = imagens.Count,
             QuantidadeImagensPadrao = quantidadeImagensPadrao,
             QuantidadeImagensAusentes = quantidadeImagensAusentes,
             EmpresaID = empresaId
+           
         };
 
-        var resultado = await _packageBuilder.CriarPacoteAsync(
-            produtosSync,
-            manifest,
-            imagens,
-            cancellationToken);
+        var resultado =
+    await _packageBuilder.CriarPacoteAsync(
+        produtosSync,
+        clientes,
+        contasReceber,
+        manifest,
+        imagens,
+        cancellationToken);
 
         _logger.LogInformation(
             "Pacote completo finalizado. Produtos: {Produtos}. " +

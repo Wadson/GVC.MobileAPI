@@ -7,6 +7,8 @@ public interface ISyncPackageBuilder
 {
     Task<SyncPackageResult> CriarPacoteAsync(
         IReadOnlyList<ProdutoSyncDto> produtos,
+        IReadOnlyList<ClienteSyncDto> clientes,
+        IReadOnlyList<ContaReceberSyncDto> contasReceber,
         SyncManifestDto manifest,
         IReadOnlyList<SyncImageFile> imagens,
         CancellationToken cancellationToken = default);

@@ -19,27 +19,27 @@ public sealed class ProdutoRepository : IProdutoRepository
         CancellationToken cancellationToken = default)
     {
         const string sql = """
-            SELECT
-                p.ProdutoID,
-                p.NomeProduto,
-                p.Referencia,
-                p.PrecoCompra,
-                p.PrecoCusto,
-                p.PrecoDeVenda,
-                p.Estoque,
-                p.GtinEan,
-                p.Imagem,
-                p.MarcaID,
-                m.NomeMarca AS Marca,
-                p.EmpresaID
-            FROM dbo.Produtos AS p
-            LEFT JOIN dbo.Marca AS m
-                ON m.MarcaID = p.MarcaID
-            WHERE
-                (@EmpresaID IS NULL OR p.EmpresaID = @EmpresaID)
-            ORDER BY
-                p.NomeProduto;
-            """;
+    SELECT
+        p.ProdutoID,
+        p.NomeProduto,
+        p.Referencia,
+        p.PrecoCompra,
+        p.PrecoCusto,
+        p.PrecoDeVenda,
+        p.Estoque,
+        p.GtinEan,
+        p.Imagem,
+        p.MarcaID,
+        m.NomeMarca AS Marca,
+        p.EmpresaID
+    FROM dbo.Produtos AS p
+    LEFT JOIN dbo.Marca AS m
+        ON m.MarcaID = p.MarcaID
+    WHERE
+        (@EmpresaID IS NULL OR p.EmpresaID = @EmpresaID)
+    ORDER BY
+        p.NomeProduto;
+    """;
 
         using var connection = _connectionFactory.CreateConnection();
 

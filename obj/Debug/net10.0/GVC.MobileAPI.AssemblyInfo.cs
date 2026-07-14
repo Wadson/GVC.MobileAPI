@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GVC.MobileAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca44b0ef9a822ebe2a8f8f90e4009f07a56a794b")]
 [assembly: System.Reflection.AssemblyProductAttribute("GVC.MobileAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GVC.MobileAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,10 +26,18 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
 
     public async Task<SyncPackageResult> CriarPacoteAsync(
         IReadOnlyList<ProdutoSyncDto> produtos,
+        IReadOnlyList<ClienteSyncDto> clientes,
+        IReadOnlyList<ContaReceberSyncDto> contasReceber,
         SyncManifestDto manifest,
         IReadOnlyList<SyncImageFile> imagens,
         CancellationToken cancellationToken = default)
     {
+        ArgumentNullException.ThrowIfNull(produtos);
+        ArgumentNullException.ThrowIfNull(clientes);
+        ArgumentNullException.ThrowIfNull(contasReceber);
+        ArgumentNullException.ThrowIfNull(manifest);
+        ArgumentNullException.ThrowIfNull(imagens);
+
         var pastaTemporaria = Path.Combine(
             Path.GetTempPath(),
             "GVC.MobileAPI",
@@ -37,7 +45,8 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
 
         Directory.CreateDirectory(pastaTemporaria);
 
-        var identificador = Guid.NewGuid().ToString("N");
+        var identificador =
+            Guid.NewGuid().ToString("N");
 
         var nomeArquivo =
             $"GVC_SYNC_{DateTime.Now:yyyyMMdd_HHmmss}_{identificador[..8]}.zip";
@@ -56,45 +65,65 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
                 bufferSize: 128 * 1024,
                 useAsync: true);
 
-            using var zipArchive = new ZipArchive(
+            using (var zipArchive = new ZipArchive(
                 fileStream,
                 ZipArchiveMode.Create,
-                leaveOpen: true);
-
-            await AdicionarJsonAsync(
-                zipArchive,
-                "produtos.json",
-                produtos,
-                cancellationToken);
-
-            await AdicionarJsonAsync(
-                zipArchive,
-                "manifest.json",
-                manifest,
-                cancellationToken);
-
-            foreach (var imagem in imagens)
+                leaveOpen: true))
             {
-                cancellationToken.ThrowIfCancellationRequested();
-
-                await AdicionarImagemAsync(
+                await AdicionarJsonAsync(
                     zipArchive,
-                    imagem,
+                    "produtos.json",
+                    produtos,
                     cancellationToken);
+
+                await AdicionarJsonAsync(
+                    zipArchive,
+                    "clientes.json",
+                    clientes,
+                    cancellationToken);
+
+                await AdicionarJsonAsync(
+                    zipArchive,
+                    "contas-receber.json",
+                    contasReceber,
+                    cancellationToken);
+
+                await AdicionarJsonAsync(
+                    zipArchive,
+                    "manifest.json",
+                    manifest,
+                    cancellationToken);
+
+                foreach (var imagem in imagens)
+                {
+                    cancellationToken
+                        .ThrowIfCancellationRequested();
+
+                    await AdicionarImagemAsync(
+                        zipArchive,
+                        imagem,
+                        cancellationToken);
+                }
             }
 
-            zipArchive.Dispose();
+            await fileStream.FlushAsync(
+                cancellationToken);
 
-            await fileStream.FlushAsync(cancellationToken);
-
-            var tamanhoBytes = fileStream.Length;
+            var tamanhoBytes =
+                fileStream.Length;
 
             _logger.LogInformation(
-                "Pacote de sincronização criado. Arquivo: {NomeArquivo}. " +
-                "Produtos: {QuantidadeProdutos}. Imagens: {QuantidadeImagens}. " +
+                "Pacote de sincronização criado. " +
+                "Arquivo: {NomeArquivo}. " +
+                "Produtos: {QuantidadeProdutos}. " +
+                "Clientes: {QuantidadeClientes}. " +
+                "Contas a receber: {QuantidadeContas}. " +
+                "Imagens: {QuantidadeImagens}. " +
                 "Tamanho: {TamanhoBytes} bytes.",
                 nomeArquivo,
                 produtos.Count,
+                clientes.Count,
+                contasReceber.Count,
                 imagens.Count,
                 tamanhoBytes);
 
@@ -110,7 +139,9 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
         }
         catch
         {
-            ExcluirArquivoSilenciosamente(caminhoArquivo);
+            ExcluirArquivoSilenciosamente(
+                caminhoArquivo);
+
             throw;
         }
     }
@@ -125,7 +156,8 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
             nomeEntrada,
             CompressionLevel.Optimal);
 
-        await using var stream = entrada.Open();
+        await using var stream =
+            entrada.Open();
 
         await JsonSerializer.SerializeAsync(
             stream,
@@ -139,25 +171,39 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
         SyncImageFile imagem,
         CancellationToken cancellationToken)
     {
-        if (!File.Exists(imagem.CaminhoFisico))
+        if (string.IsNullOrWhiteSpace(
+                imagem.CaminhoFisico))
+        {
             return;
+        }
 
-        var caminhoNoPacote = imagem.CaminhoNoPacote
-            .Replace('\\', '/');
+        if (!File.Exists(
+                imagem.CaminhoFisico))
+        {
+            return;
+        }
 
-        var entrada = zipArchive.CreateEntry(
-            caminhoNoPacote,
-            CompressionLevel.Fastest);
+        var caminhoNoPacote =
+            imagem.CaminhoNoPacote
+                .Replace('\\', '/')
+                .TrimStart('/');
 
-        await using var destino = entrada.Open();
+        var entrada =
+            zipArchive.CreateEntry(
+                caminhoNoPacote,
+                CompressionLevel.Fastest);
 
-        await using var origem = new FileStream(
-            imagem.CaminhoFisico,
-            FileMode.Open,
-            FileAccess.Read,
-            FileShare.Read,
-            bufferSize: 128 * 1024,
-            useAsync: true);
+        await using var destino =
+            entrada.Open();
+
+        await using var origem =
+            new FileStream(
+                imagem.CaminhoFisico,
+                FileMode.Open,
+                FileAccess.Read,
+                FileShare.Read,
+                bufferSize: 128 * 1024,
+                useAsync: true);
 
         await origem.CopyToAsync(
             destino,
@@ -170,7 +216,9 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
         try
         {
             if (File.Exists(caminhoArquivo))
+            {
                 File.Delete(caminhoArquivo);
+            }
         }
         catch
         {

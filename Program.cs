@@ -79,6 +79,19 @@ builder.Services.AddSwaggerGen(options =>
 // ---------------------------------------------------------
 
 builder.Services
+    .AddOptions<ApiSettings>()
+    .Bind(builder.Configuration.GetSection(
+        ApiSettings.SectionName))
+    .Validate(
+        settings =>
+            !string.IsNullOrWhiteSpace(settings.Nome) &&
+            !string.IsNullOrWhiteSpace(settings.Versao),
+        "ApiSettings:Nome e ApiSettings:Versao são obrigatórios.")
+    .ValidateOnStart();
+
+
+
+builder.Services
     .AddOptions<ImageSettings>()
     .Bind(builder.Configuration.GetSection(
         ImageSettings.SectionName))
@@ -136,6 +149,29 @@ builder.Services.AddScoped<
 builder.Services.AddHostedService<
     SyncTempCleanupService>();
 
+//Contas a Receber
+
+builder.Services.AddScoped<
+    IClienteRepository,
+    ClienteRepository>();
+
+builder.Services.AddScoped<
+    IClienteService,
+    ClienteService>();
+
+builder.Services.AddScoped<
+    IContaReceberRepository,
+    ContaReceberRepository>();
+
+builder.Services.AddScoped<
+    IContaReceberService,
+    ContaReceberService>();
+
+
+
+
+
+
 // ---------------------------------------------------------
 // HEALTH CHECKS
 // ---------------------------------------------------------
@@ -155,6 +191,26 @@ builder.Services.AddRateLimiter(options =>
     options.RejectionStatusCode =
         StatusCodes.Status429TooManyRequests;
 
+    options.OnRejected = async (
+    contexto,
+    cancellationToken) =>
+    {
+        contexto.HttpContext.Response.ContentType =
+            "application/json; charset=utf-8";
+
+        await contexto.HttpContext.Response.WriteAsJsonAsync(
+            new
+            {
+                success = false,
+                message =
+                    "Limite de solicitações atingido. Aguarde antes de tentar novamente.",
+                traceId =
+                    contexto.HttpContext.TraceIdentifier
+            },
+            cancellationToken);
+    };
+
+
     options.AddPolicy(
         "SyncDownload",
         httpContext =>
@@ -169,10 +225,10 @@ builder.Services.AddRateLimiter(options =>
                 factory: _ =>
                     new FixedWindowRateLimiterOptions
                     {
-                        PermitLimit = 3,
+                        PermitLimit = 100,
 
                         Window =
-                            TimeSpan.FromMinutes(10),
+                            TimeSpan.FromMinutes(1),
 
                         QueueLimit = 0,
 
@@ -197,11 +253,8 @@ builder.Services.AddCors(options =>
         });
 });
 
-var app = builder.Build();
 
-// ---------------------------------------------------------
-// PIPELINE HTTP
-// ---------------------------------------------------------
+var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
 
@@ -211,7 +264,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+     //app.UseHttpsRedirection();
+
+
 
 app.UseRateLimiter();
 
@@ -231,11 +286,16 @@ app.MapHealthChecks(
 
 app.MapGet(
     "/",
-    () => Results.Ok(new
+    (Microsoft.Extensions.Options.IOptions<ApiSettings> options) =>
     {
-        api = "GVC Mobile API",
-        status = "Online",
-        versao = "1.0.0"
-    }));
+        var settings = options.Value;
+
+        return Results.Ok(new
+        {
+            api = settings.Nome,
+            status = "Online",
+            versao = settings.Versao
+        });
+    });
 
 app.Run();

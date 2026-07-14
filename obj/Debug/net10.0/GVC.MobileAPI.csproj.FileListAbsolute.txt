@@ -71,10 +71,14 @@ D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\staticwebassets.build.json.cache
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\staticwebassets.development.json
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\swae.build.ex.cache
-D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\GVC.Mobi.AAA5A3A8.Up2Date
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\GVC.MobileAPI.dll
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\refint\GVC.MobileAPI.dll
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\GVC.MobileAPI.pdb
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\GVC.MobileAPI.genruntimeconfig.cache
 D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\ref\GVC.MobileAPI.dll
+D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\GVC.MobileAPI.sourcelink.json
+D:\Projetos\GVC.MobileAPI\bin\Debug\net10.0\Propriedade\launchSettings.json
+D:\Projetos\GVC.MobileAPI\bin\Debug\net10.0\appsettings.Production.example.json
+D:\Projetos\GVC.MobileAPI\bin\Debug\net10.0\dotnet-tools.json
+D:\Projetos\GVC.MobileAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
