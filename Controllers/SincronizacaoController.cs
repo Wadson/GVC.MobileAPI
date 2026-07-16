@@ -26,30 +26,18 @@ public sealed class SincronizacaoController : ControllerBase
     [Produces("application/zip")]
     [ProducesResponseType(typeof(FileResult), StatusCodes.Status200OK)]
     [EnableRateLimiting("SyncDownload")]
-    public async Task<IActionResult> BaixarPacoteCompleto(
-        [FromQuery] int? empresaId,
-        CancellationToken cancellationToken)
+    public async Task<IActionResult> BaixarCompleta(
+    CancellationToken cancellationToken)
     {
-        var pacote =
+        var resultado =
             await _sincronizacaoService.GerarPacoteCompletoAsync(
-                empresaId,
+                empresaId: null,
                 cancellationToken);
 
-        HttpContext.Response.OnCompleted(() =>
-        {
-            ExcluirArquivoTemporario(pacote.CaminhoArquivo);
-            return Task.CompletedTask;
-        });
-
-        _logger.LogInformation(
-            "Enviando pacote {NomeArquivo}. Tamanho: {TamanhoBytes} bytes.",
-            pacote.NomeArquivo,
-            pacote.TamanhoBytes);
-
         return PhysicalFile(
-            pacote.CaminhoArquivo,
-            pacote.ContentType,
-            pacote.NomeArquivo,
+            resultado.CaminhoArquivo,
+            resultado.ContentType,
+            resultado.NomeArquivo,
             enableRangeProcessing: true);
     }
 

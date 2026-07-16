@@ -1,4 +1,5 @@
-﻿using GVC.MobileAPI.Builders.Interfaces;
+﻿using GVC.MobileAPI.Builders;
+using GVC.MobileAPI.Builders.Interfaces;
 using GVC.MobileAPI.DTOs;
 using GVC.MobileAPI.Models;
 using GVC.MobileAPI.Services.Interfaces;
@@ -14,11 +15,13 @@ public sealed class SincronizacaoService : ISincronizacaoService
 
     private readonly IClienteService _clienteService;
     private readonly IContaReceberService _contaReceberService;
+    private readonly IEmpresaService _empresaService;
 
     public SincronizacaoService(
        IProdutoService produtoService,
        IClienteService clienteService,
        IContaReceberService contaReceberService,
+       IEmpresaService empresaService,
        IImagemService imagemService,
        ISyncPackageBuilder packageBuilder,
        ILogger<SincronizacaoService> logger)
@@ -26,14 +29,13 @@ public sealed class SincronizacaoService : ISincronizacaoService
         _produtoService = produtoService;
         _clienteService = clienteService;
         _contaReceberService = contaReceberService;
+        _empresaService = empresaService;
         _imagemService = imagemService;
         _packageBuilder = packageBuilder;
         _logger = logger;
     }
 
-    public async Task<SyncPackageResult> GerarPacoteCompletoAsync(
-        int? empresaId,
-        CancellationToken cancellationToken = default)
+    public async Task<SyncPackageResult> GerarPacoteCompletoAsync( int? empresaId, CancellationToken cancellationToken = default)
     {
         if (empresaId.HasValue && empresaId.Value <= 0)
         {
@@ -42,10 +44,9 @@ public sealed class SincronizacaoService : ISincronizacaoService
                 nameof(empresaId));
         }
 
-        _logger.LogInformation(
-            "Iniciando geração do pacote completo. EmpresaID: {EmpresaID}.",
-            empresaId);
+        _logger.LogInformation( "Iniciando geração do pacote completo. EmpresaID: {EmpresaID}.", empresaId);
 
+        
         var produtosOriginais = await _produtoService.ObterTodosAsync(
             empresaId,
             cancellationToken);
@@ -53,6 +54,7 @@ public sealed class SincronizacaoService : ISincronizacaoService
         var clientes =  await _clienteService.ObterTodosAsync( empresaId,  cancellationToken);
         var contasReceber = await _contaReceberService.ObterTodasAsync(  empresaId, cancellationToken);
 
+        var empresas = await _empresaService.ObterTodasAsync(cancellationToken);
 
         var produtosSync = new List<ProdutoSyncDto>(
             produtosOriginais.Count);
@@ -141,24 +143,34 @@ public sealed class SincronizacaoService : ISincronizacaoService
         {
             Versao = GerarVersao(dataGeracaoUtc),
             DataGeracaoUtc = dataGeracaoUtc,
+
+            QuantidadeEmpresas = empresas.Count,
             QuantidadeProdutos = produtosSync.Count,
             QuantidadeClientes = clientes.Count,
             QuantidadeContasReceber = contasReceber.Count,
+
             QuantidadeImagens = imagens.Count,
             QuantidadeImagensPadrao = quantidadeImagensPadrao,
             QuantidadeImagensAusentes = quantidadeImagensAusentes,
-            EmpresaID = empresaId
-           
+
+            EmpresaID = empresaId,
+
+            Escopo = empresaId.HasValue
+        ? "EmpresaEspecifica"
+        : "TodasEmpresas",
+
+            FormatoPacote = "GVC-SYNC-1.0"
         };
 
         var resultado =
-    await _packageBuilder.CriarPacoteAsync(
-        produtosSync,
-        clientes,
-        contasReceber,
-        manifest,
-        imagens,
-        cancellationToken);
+      await _packageBuilder.CriarPacoteAsync(
+          empresas,
+          produtosSync,
+          clientes,
+          contasReceber,
+          manifest,
+          imagens,
+          cancellationToken);
 
         _logger.LogInformation(
             "Pacote completo finalizado. Produtos: {Produtos}. " +

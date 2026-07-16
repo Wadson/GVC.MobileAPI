@@ -6,10 +6,11 @@ namespace GVC.MobileAPI.Builders.Interfaces;
 public interface ISyncPackageBuilder
 {
     Task<SyncPackageResult> CriarPacoteAsync(
-        IReadOnlyList<ProdutoSyncDto> produtos,
-        IReadOnlyList<ClienteSyncDto> clientes,
-        IReadOnlyList<ContaReceberSyncDto> contasReceber,
-        SyncManifestDto manifest,
-        IReadOnlyList<SyncImageFile> imagens,
-        CancellationToken cancellationToken = default);
+     IReadOnlyList<EmpresaSyncDto> empresas,
+     IReadOnlyList<ProdutoSyncDto> produtos,
+     IReadOnlyList<ClienteSyncDto> clientes,
+     IReadOnlyList<ContaReceberSyncDto> contasReceber,
+     SyncManifestDto manifest,
+     IReadOnlyList<SyncImageFile> imagens,
+     CancellationToken cancellationToken = default);
 }

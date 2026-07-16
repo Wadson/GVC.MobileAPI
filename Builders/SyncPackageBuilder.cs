@@ -25,12 +25,13 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
     }
 
     public async Task<SyncPackageResult> CriarPacoteAsync(
-        IReadOnlyList<ProdutoSyncDto> produtos,
-        IReadOnlyList<ClienteSyncDto> clientes,
-        IReadOnlyList<ContaReceberSyncDto> contasReceber,
-        SyncManifestDto manifest,
-        IReadOnlyList<SyncImageFile> imagens,
-        CancellationToken cancellationToken = default)
+    IReadOnlyList<EmpresaSyncDto> empresas,
+    IReadOnlyList<ProdutoSyncDto> produtos,
+    IReadOnlyList<ClienteSyncDto> clientes,
+    IReadOnlyList<ContaReceberSyncDto> contasReceber,
+    SyncManifestDto manifest,
+    IReadOnlyList<SyncImageFile> imagens,
+    CancellationToken cancellationToken = default)
     {
         ArgumentNullException.ThrowIfNull(produtos);
         ArgumentNullException.ThrowIfNull(clientes);
@@ -48,9 +49,9 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
         var identificador =
             Guid.NewGuid().ToString("N");
 
+       
         var nomeArquivo =
-            $"GVC_SYNC_{DateTime.Now:yyyyMMdd_HHmmss}_{identificador[..8]}.zip";
-
+    $"GVC_SYNC_TODAS_EMPRESAS_" +  $"{DateTime.Now:yyyyMMdd_HHmmss}_" +  $"{identificador[..8]}.zip";
         var caminhoArquivo = Path.Combine(
             pastaTemporaria,
             nomeArquivo);
@@ -70,6 +71,12 @@ public sealed class SyncPackageBuilder : ISyncPackageBuilder
                 ZipArchiveMode.Create,
                 leaveOpen: true))
             {
+                await AdicionarJsonAsync(
+                    zipArchive,
+                    "empresas.json",
+                    empresas,
+                    cancellationToken);
+
                 await AdicionarJsonAsync(
                     zipArchive,
                     "produtos.json",

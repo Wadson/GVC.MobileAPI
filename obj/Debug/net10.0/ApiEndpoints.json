@@ -106,6 +106,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "GVC.MobileAPI.Controllers.EmpresasController",
+    "Method": "Get",
+    "RelativePath": "api/empresas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GVC.MobileAPI.Controllers.EmpresasController",
+    "Method": "GetById",
+    "RelativePath": "api/empresas/{empresaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empresaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "GVC.MobileAPI.Controllers.ImagensController",
     "Method": "ObterImagemProduto",
     "RelativePath": "api/imagens/produto/{produtoId}",
@@ -240,18 +266,12 @@
   },
   {
     "ContainingType": "GVC.MobileAPI.Controllers.SincronizacaoController",
-    "Method": "BaixarPacoteCompleto",
+    "Method": "BaixarCompleta",
     "RelativePath": "api/sincronizacao/completa",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "empresaId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "Microsoft.AspNetCore.Mvc.FileResult",

@@ -133,6 +133,41 @@
         }
       }
     },
+    "/api/empresas": {
+      "get": {
+        "tags": [
+          "Empresas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/empresas/{empresaId}": {
+      "get": {
+        "tags": [
+          "Empresas"
+        ],
+        "parameters": [
+          {
+            "name": "empresaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/": {
       "get": {
         "tags": [
@@ -350,16 +385,6 @@
         "tags": [
           "Sincronizacao"
         ],
-        "parameters": [
-          {
-            "name": "empresaId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -505,6 +530,9 @@
     },
     {
       "name": "ContasReceber"
+    },
+    {
+      "name": "Empresas"
     },
     {
       "name": "GVC.MobileAPI"

@@ -167,7 +167,15 @@ builder.Services.AddScoped<
     IContaReceberService,
     ContaReceberService>();
 
+// Empresa
 
+builder.Services.AddScoped<
+    IEmpresaRepository,
+    EmpresaRepository>();
+
+builder.Services.AddScoped<
+    IEmpresaService,
+    EmpresaService>();
 
 
 

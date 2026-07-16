@@ -22,6 +22,9 @@ public sealed class SyncManifestDto
 
     public int QuantidadeContasReceber { get; set; }
 
+    public string Escopo { get; set; } = "TodasEmpresas";
 
-   
+    public int QuantidadeEmpresas { get; set; }
+    
+
 }

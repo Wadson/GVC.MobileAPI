@@ -4,7 +4,5 @@ namespace GVC.MobileAPI.Services.Interfaces;
 
 public interface ISincronizacaoService
 {
-    Task<SyncPackageResult> GerarPacoteCompletoAsync(
-        int? empresaId,
-        CancellationToken cancellationToken = default);
+    Task<SyncPackageResult> GerarPacoteCompletoAsync( int? empresaId, CancellationToken cancellationToken = default);
 }
